@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Database_Restaurant_ProjectFinalKel1
 {
-    public partial class Form1 : Form
+    public partial class Suplier : Form
     {
-        public Form1()
+        public Suplier()
         {
             InitializeComponent();
         }
