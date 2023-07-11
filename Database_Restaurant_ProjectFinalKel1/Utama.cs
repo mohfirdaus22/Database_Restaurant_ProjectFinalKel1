@@ -32,5 +32,19 @@ namespace Database_Restaurant_ProjectFinalKel1
             fk.Show();
             this.Hide();
         }
+
+        private void btnmenu_Click(object sender, EventArgs e)
+        {
+
+
+        }
+
+        //button koki
+        private void btnkoki_Click(object sender, EventArgs e)
+        {
+            Koki fkok = new Koki();
+            fkok.Show();
+            this.Hide();
+        }
     }
 }

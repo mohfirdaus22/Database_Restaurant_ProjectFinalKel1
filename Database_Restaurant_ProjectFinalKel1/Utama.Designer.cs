@@ -63,6 +63,7 @@
             this.btnmenu.TabIndex = 2;
             this.btnmenu.Text = "Menu";
             this.btnmenu.UseVisualStyleBackColor = true;
+            this.btnmenu.Click += new System.EventHandler(this.btnmenu_Click);
             // 
             // btnkoki
             // 
@@ -72,6 +73,7 @@
             this.btnkoki.TabIndex = 3;
             this.btnkoki.Text = "Koki";
             this.btnkoki.UseVisualStyleBackColor = true;
+            this.btnkoki.Click += new System.EventHandler(this.btnkoki_Click);
             // 
             // btnsuplier
             // 
