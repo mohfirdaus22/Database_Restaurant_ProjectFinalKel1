@@ -33,6 +33,19 @@ namespace Database_Restaurant_ProjectFinalKel1
 
         }
 
+
+        //membuat datagrid
+        private void dataGridView()
+        {
+            koneksi.Open();
+            string query = "SELECT Id_koki, Nama, Alamat, No_telp FROM dbo.Koki";
+            SqlDataAdapter da = new SqlDataAdapter(query, koneksi);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            dataGridView1.DataSource = ds.Tables[0];
+            koneksi.Close();
+        }
+
         public Koki()
         {
             InitializeComponent();
