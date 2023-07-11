@@ -16,5 +16,15 @@ namespace Database_Restaurant_ProjectFinalKel1
         {
             InitializeComponent();
         }
+
+        //button Pembeli
+        private void btnpembeli_Click(object sender, EventArgs e)
+        {
+            Pembeli fp = new Pembeli();
+            fp.Show();
+            this.Hide();
+        }
+
+
     }
 }

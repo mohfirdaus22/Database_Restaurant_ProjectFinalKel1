@@ -43,6 +43,7 @@
             this.btnpembeli.TabIndex = 0;
             this.btnpembeli.Text = "Pembeli";
             this.btnpembeli.UseVisualStyleBackColor = true;
+            this.btnpembeli.Click += new System.EventHandler(this.btnpembeli_Click);
             // 
             // btnkasir
             // 
