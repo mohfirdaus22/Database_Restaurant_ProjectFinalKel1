@@ -25,6 +25,12 @@ namespace Database_Restaurant_ProjectFinalKel1
             this.Hide();
         }
 
-
+        //button kasir
+        private void btnkasir_Click(object sender, EventArgs e)
+        {
+            Kasir fk = new Kasir();
+            fk.Show();
+            this.Hide();
+        }
     }
 }

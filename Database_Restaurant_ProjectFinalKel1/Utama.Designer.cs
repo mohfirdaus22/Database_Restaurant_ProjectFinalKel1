@@ -53,6 +53,7 @@
             this.btnkasir.TabIndex = 1;
             this.btnkasir.Text = "Kasir";
             this.btnkasir.UseVisualStyleBackColor = true;
+            this.btnkasir.Click += new System.EventHandler(this.btnkasir_Click);
             // 
             // btnmenu
             // 
