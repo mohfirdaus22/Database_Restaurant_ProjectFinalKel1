@@ -55,5 +55,25 @@ namespace Database_Restaurant_ProjectFinalKel1
         {
 
         }
+
+        //button open
+        private void btnopen_Click(object sender, EventArgs e)
+        {
+            dataGridView();
+            btnopen.Enabled = false;
+        }
+
+        //button Add
+        private void btnadd_Click(object sender, EventArgs e)
+        {
+            txtidkoki.Enabled = true;
+            txtnama.Enabled = true;
+            txtnotelp.Enabled = true;
+            txtalamat.Enabled = true;
+            btnsave.Enabled = true;
+            btnopen.Enabled = true;
+            btnclear.Enabled = true;
+
+        }
     }
 }
